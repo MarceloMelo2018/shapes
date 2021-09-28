@@ -20,7 +20,7 @@ public class Program {
         Cor vermelho = Cor.VERMELHO;
 
         Circulo c1 = new Circulo(azul, 100.0);
-        Circulo c2 = new Circulo(vermelho, 110.00);
+        Circulo c2 = new Circulo(vermelho, 110.0);
         Retangulo r1 = new Retangulo(amarelo, 6.25 , 4.0);
         Quadrado q1 = new Quadrado(vermelho, 5.0);
 
