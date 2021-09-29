@@ -1,7 +1,6 @@
 package application;
 
 import java.util.Locale;
-import java.util.Scanner;
 
 import entities.Circulo;
 import entities.util.Comparador;
@@ -13,7 +12,6 @@ public class Program {
 
     public static void main(String[] args) {
         Locale.setDefault(Locale.US);
-        Scanner sc = new Scanner(System.in);
 
         Cor amarelo = Cor.AMARELO;
         Cor azul = Cor.AZUL;
@@ -40,7 +38,6 @@ public class Program {
         System.out.println("\nMAIOR ÁREA ENTRE 2 FORMAS: " + Comparador.maior(q1, r1));
         System.out.println("MAIOR ÁREA ENTRE 2 FORMAS: " + Comparador.maior(c1, c2));
         System.out.println("MAIOR ÁREA ENTRE 3 FORMAS: " + Comparador.maior(q1, r1, c1));
-
-        sc.close();
+        
     }
 }
